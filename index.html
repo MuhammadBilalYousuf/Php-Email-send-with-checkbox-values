@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <link rel="stylesheet" href="css/php_checkbox.css" />
+</head>
+<body>
+
+<div class="container">
+    <div class="main">
+
+        <form action="checkbox_value.php" method="post">
+            <input type="text" name="email">
+            <input type="checkbox" name="check_list[]" value="1hrxXvCIHnrbVaz5NbjSrK9P7yrZe4j3t/view?usp=sharing" class="filters"><label>Fabrics</label>
+            <input type="checkbox" name="check_list[]" value="1IgKFiBJF8OCknWSywX0oL0hZEOH4oAOF/view?usp=sharing" class="filters"><label>Peragolas</label>
+            <input type="checkbox" name="check_list[]" value="1WEigOhJCgwAqEJzpPn5RQjSNPLiJ-qPR/view?usp=sharing" class="filters"><label>Image Catalogue</label>
+            <input type="checkbox" name="check_list[]" value="1V4HTuUzXE4KhhxbQflGtm7t8Sqt2pXuD/view?usp=sharing" class="filters"><label>Awnings</label>
+            <input type="checkbox" name="check_list[]" value="1v-82AHqv2WGt52duOzhdFU-6NQts6KUa/view?usp=sharing" class="filters"><label>Awnings and Shades</label>
+            <input type="submit" name="submit" Value="Submit"/>
+        </form>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+    $("input:checkbox").on('click', function() {
+  // in the handler, 'this' refers to the box clicked on
+  var $box = $(this);
+  if ($box.is(":checked")) {
+    // the name of the box is retrieved using the .attr() method
+    // as it is assumed and expected to be immutable
+    var group = "input:checkbox[name='" + $box.attr("name") + "']";
+    // the checked state of the group/box on the other hand will change
+    // and the current value is retrieved using .prop() method
+    $(group).prop("checked", false);
+    $box.prop("checked", true);
+  } else {
+    $box.prop("checked", false);
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[08-Jun-2019 13:12:09 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/demo2/checkbox_value.php on line 8
+[08-Jun-2019 13:12:27 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/demo2/checkbox_value.php on line 8
+[08-Jun-2019 13:14:06 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/demo2/checkbox_value.php on line 8
+[08-Jun-2019 13:14:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/demo2/checkbox_value.php on line 8
+[08-Jun-2019 13:16:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/demo2/checkbox_value.php on line 8
+[09-Jun-2019 11:12:06 America/Chicago] PHP Warning:  A non-numeric value encountered in /home1/checkit/public_html/coderxsolutions.com/demo2/checkbox_value.php on line 14
+[09-Jun-2019 11:12:06 America/Chicago] PHP Warning:  A non-numeric value encountered in /home1/checkit/public_html/coderxsolutions.com/demo2/checkbox_value.php on line 14
+[09-Jun-2019 11:12:29 America/Chicago] PHP Warning:  A non-numeric value encountered in /home1/checkit/public_html/coderxsolutions.com/demo2/checkbox_value.php on line 14
+[09-Jun-2019 11:12:29 America/Chicago] PHP Warning:  A non-numeric value encountered in /home1/checkit/public_html/coderxsolutions.com/demo2/checkbox_value.php on line 14
+[12-Jun-2019 06:58:00 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home1/checkit/public_html/coderxsolutions.com/demo2/checkbox_value.php on line 18
